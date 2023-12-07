@@ -1,5 +1,4 @@
 # Import the libraries
-%matplotlib inline
 
 import pandas as pd
 import numpy as np
@@ -51,7 +50,7 @@ for img_name in img_files:
 import matplotlib.pyplot as plt
 import numpy as np
 # Insert the image query
-img = Image.open("./pokemon/images/images/{NAME}.png")
+img = Image.open("./pokemon/images/images/doduo.png")
 # Extract its features
 query = fe.extract(img)
 # Calculate the similarity (distance) between images
