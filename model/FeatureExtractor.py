@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 from tensorflow.keras.models import Model
 
+__all__ = ["FeatureExtractor"]
+
 class FeatureExtractor:
     def __init__(self):
         # Use VGG-16 as the architecture and ImageNet for the weight

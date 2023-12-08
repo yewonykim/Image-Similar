@@ -4,6 +4,8 @@ import os
 import numpy as np
 import matplotlib.pyplot as plt
 
+__all__ = ["calculate_similarity"]
+
 def calculate_similarity(fe, features, img_paths, query_image_path):
     img = Image.open(query_image_path)
     query = fe.extract(img)

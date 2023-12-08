@@ -1,7 +1,10 @@
 import os
 import numpy as np
 from PIL import Image
-from FeatureExtractor import FeatureExtractor
+
+from model.FeatureExtractor import FeatureExtractor
+
+__all__ = ["process_images"]
 
 def process_images(directory):
     fe = FeatureExtractor()
