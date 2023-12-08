@@ -1,9 +1,14 @@
 # Pokemon Dataset을 활용하여 Similarity 구하기
 
-포켓몬 데이터 : https://kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types
 
 ![Python 3.11.4](https://img.shields.io/badge/python-3.11.4-blue.svg)
 ![TensorFlow 2.12.0](https://img.shields.io/badge/TensorFlow-2.12.0-orange.svg)
+
+
+포켓몬 데이터 : https://kaggle.com/datasets/vishalsubbiah/pokemon-images-and-types
+
+
+
 
 
 ## Model
